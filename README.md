@@ -1,0 +1,2 @@
+# LenaProject
+ I this project, i focus on ASP .NET .CORE Core cross-platform technology. I used a six-layer architecture so layers name are Entites, DAL,DTO,Map,,Business and UI, UI layer has MVC Pattern. Also i utilize the Entity Farmework Core Code First Approach and Asp.Net Core Identity.I use Repository Pattetn and Unit Of Work.I used ajax and jquery operation.Admin used to add pop-up new dynamic.
