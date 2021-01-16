@@ -1,0 +1,46 @@
+﻿@model FormsDetailAddDto
+@{
+    ViewData["Title"] = "FormsDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+
+    <div class="form-group">
+        <label>Form Detay İsmi</label>
+        <input type="text" asp-for="Name" class="form-control" />
+
+
+    </div>
+
+    <div class="form-group">
+        <label>Form Detay Açıklaması</label>
+        <input type="text" asp-for="Description" class="form-control" />
+
+
+    </div>
+
+    <div class="form-group">
+
+        <label>Form ismi</label>
+
+        <select asp-for="FormsID" class="form-control" asp-items="@ViewBag.forms">
+
+            <option value="-1">Seçiniz</option>
+
+        </select>
+
+
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">Ekle</button>
+
+
+
+
+
+
+}
+

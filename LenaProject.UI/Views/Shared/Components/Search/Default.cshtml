@@ -1,0 +1,52 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+
+    string s = (string)ViewBag.s;
+
+}
+
+
+@if (User.IsInRole("Admin"))
+{
+    <div class="search">
+        @using (Html.BeginForm("Index","Forms",new { area="Admin"},FormMethod.Get))
+        {
+
+            @Html.TextBox("s");
+            <button type="submit">Ara</button>
+
+        }
+
+
+    </div>
+
+
+
+    @if (!string.IsNullOrWhiteSpace(s))
+    {
+        <div>@s için arama yaptınız..<a href="/Forms/Index" class="btn btn-primary">Filtreyi Kaldır</a></div>
+    }
+}
+
+else
+{
+    <div class="search">
+        @using (Html.BeginForm("Index", "Home", FormMethod.Get))
+        {
+
+            @Html.TextBox("s");
+            <button type="submit">Ara</button>
+
+        }
+
+
+    </div>
+
+    @if (!string.IsNullOrWhiteSpace(s))
+    {
+        <div>@s için arama yaptınız..<a href="/Home/Index" class="btn btn-primary">Filtreyi Kaldır</a></div>
+    }
+}

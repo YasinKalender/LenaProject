@@ -1,0 +1,68 @@
+﻿@model List<FormsListDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+  
+}
+
+
+
+@if (User.Identity.IsAuthenticated)
+{
+
+    <div class="row">
+
+        <div class="col-md-4">
+
+
+        </div>
+
+        <div class="col-md-8">
+            <div class="row">
+                @foreach (var item in Model)
+                {
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">@item.FormName</div>
+                            <div class="card-body">
+                                @item.FormDescription
+
+                            </div>
+                            <div class="card-footer"><a asp-area="" asp-controller="Home" asp-action="Form" asp-route-id="@item.ID" class="btn btn-primary">Forms</a></div>
+
+
+
+                        </div>
+
+                    </div>
+
+
+                }
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+}
+
+else
+{
+    <div class="container">
+        <h1>Formları görmek için lütfen giriş yapınız..Eğer kaydınız yoksa üye olun</h1>
+        @Html.ActionLink("Üye ol", "Register", "Home", new { }, new { @class = "btn btn-primary mr-3" })
+        @Html.ActionLink("Giriş Yap", "Login", "Home", new { }, new { @class = "btn btn-primary" })
+    </div>
+}
+
+
+
+

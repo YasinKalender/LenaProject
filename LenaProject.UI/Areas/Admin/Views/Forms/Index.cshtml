@@ -1,0 +1,157 @@
+﻿@model List<FormsListDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string s = (string)ViewBag.s;
+}
+
+<button type="button" class="btn btn-primary" data-toggle="modal"  data-target="#Modal">Forms Ekle</button>
+
+@if (Model.Count > 0)
+{
+
+
+
+    <table class="table table-bordered">
+
+        <tr>
+
+            <th>Eklenme Tarihi</th>
+            <th>Form ismi</th>
+            <th>Form Açıklaması</th>
+            <th>Durumu</th>
+            <th>Ekleyen</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.AddDate</td>
+                <td>@item.FormName</td>
+                <td>@item.FormDescription</td>
+                <td>@item.Status</td>
+                <td>@item.AppUser.FirstName</td>
+
+
+
+            </tr>
+        }
+
+
+
+    </table>
+
+}
+
+else
+{
+    <h1 class="text-center">Form Bulunmamaktır..</h1>
+}
+
+<div class="modal" id="Modal">
+
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h2 class="modal-title">Form Ekle</h2>
+            </div>
+
+            <form id="myform">
+
+                <div class="modal-body">
+
+
+
+                    <label>Form Adı</label>
+                    <input type="text" name="FormName" id="FormName" class="form-control" />
+                    <span id="danger" class="text-danger"></span>
+
+                    <label>Form Description</label>
+                    <input name="FormDescription" id="FormDescription" class="form-control" />
+
+
+
+
+                </div>
+
+
+                <button type="button" id="btnekle" class="btn btn-primary">Ekle</button>
+
+            </form>
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+</div>
+
+<script src="~/jquery/jquery.min.js"></script>
+
+
+
+<script type="text/javascript">
+
+
+
+    $(document).ready(function () {
+
+
+
+            $("#btnekle").click(function () {
+
+                var myformdata = $("#myform").serialize();
+
+
+
+                $.ajax({
+                    url: "/Admin/Forms/FormsAdd",
+                    type: "POST",
+                    data: myformdata,
+                    //contentType: "application/json;charset=utf-8",
+                    //dataType: "json",
+                    success: function (cevap) {
+
+                        $("#Modal").hide();
+                        window.location.reload();
+
+
+                    },
+
+                    error: function (error) {
+
+                        $("#danger").html("Bu alan zorunludur");
+
+                    }
+
+
+
+                });
+
+
+
+
+
+            });
+        });
+
+
+
+
+
+
+</script>
+
+
+

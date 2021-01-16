@@ -1,0 +1,15 @@
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Map\bin\Debug\net5.0\LenaProject.Map.deps.json
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Map\bin\Debug\net5.0\LenaProject.Map.dll
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Map\bin\Debug\net5.0\ref\LenaProject.Map.dll
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Map\bin\Debug\net5.0\LenaProject.Map.pdb
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Map\bin\Debug\net5.0\LenaProject.Entites.dll
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Map\bin\Debug\net5.0\LenaProject.Entites.pdb
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Map\obj\Debug\net5.0\LenaProject.Map.csprojAssemblyReference.cache
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Map\obj\Debug\net5.0\LenaProject.Map.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Map\obj\Debug\net5.0\LenaProject.Map.AssemblyInfoInputs.cache
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Map\obj\Debug\net5.0\LenaProject.Map.AssemblyInfo.cs
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Map\obj\Debug\net5.0\LenaProject.Map.csproj.CoreCompileInputs.cache
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Map\obj\Debug\net5.0\LenaProject.Map.csproj.CopyComplete
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Map\obj\Debug\net5.0\LenaProject.Map.dll
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Map\obj\Debug\net5.0\ref\LenaProject.Map.dll
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Map\obj\Debug\net5.0\LenaProject.Map.pdb

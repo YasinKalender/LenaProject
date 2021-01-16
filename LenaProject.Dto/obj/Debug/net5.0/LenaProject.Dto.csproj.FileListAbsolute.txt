@@ -1,0 +1,11 @@
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Dto\bin\Debug\net5.0\LenaProject.Dto.deps.json
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Dto\bin\Debug\net5.0\LenaProject.Dto.dll
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Dto\bin\Debug\net5.0\ref\LenaProject.Dto.dll
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Dto\bin\Debug\net5.0\LenaProject.Dto.pdb
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Dto\obj\Debug\net5.0\LenaProject.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Dto\obj\Debug\net5.0\LenaProject.Dto.AssemblyInfoInputs.cache
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Dto\obj\Debug\net5.0\LenaProject.Dto.AssemblyInfo.cs
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Dto\obj\Debug\net5.0\LenaProject.Dto.csproj.CoreCompileInputs.cache
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Dto\obj\Debug\net5.0\LenaProject.Dto.dll
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Dto\obj\Debug\net5.0\ref\LenaProject.Dto.dll
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Dto\obj\Debug\net5.0\LenaProject.Dto.pdb

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LenaProject.UI", "LenaProject.UI\LenaProject.UI.csproj", "{A087DCEB-C623-4E44-A81B-2668FAED87DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LenaProject.Entites", "LenaProject.Entites\LenaProject.Entites.csproj", "{91D7B03E-4628-484C-BDB8-3231E3F54E38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LenaProject.Map", "LenaProject.Map\LenaProject.Map.csproj", "{FC2B8626-3763-48D9-8191-04BD829BA9B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LenaProject.DAL", "LenaProject.DAL\LenaProject.DAL.csproj", "{41F100E9-F1D2-4B7F-A4BF-A8F529879CBB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LenaProject.Business", "LenaProject.Business\LenaProject.Business.csproj", "{4E36D6BE-37F1-4A55-8535-B2DB2116887A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LenaProject.Dto", "LenaProject.Dto\LenaProject.Dto.csproj", "{5752CC78-BD8D-47C4-BD6C-D165D7AB34A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A087DCEB-C623-4E44-A81B-2668FAED87DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A087DCEB-C623-4E44-A81B-2668FAED87DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A087DCEB-C623-4E44-A81B-2668FAED87DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A087DCEB-C623-4E44-A81B-2668FAED87DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91D7B03E-4628-484C-BDB8-3231E3F54E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91D7B03E-4628-484C-BDB8-3231E3F54E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91D7B03E-4628-484C-BDB8-3231E3F54E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91D7B03E-4628-484C-BDB8-3231E3F54E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC2B8626-3763-48D9-8191-04BD829BA9B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2B8626-3763-48D9-8191-04BD829BA9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2B8626-3763-48D9-8191-04BD829BA9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2B8626-3763-48D9-8191-04BD829BA9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41F100E9-F1D2-4B7F-A4BF-A8F529879CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41F100E9-F1D2-4B7F-A4BF-A8F529879CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41F100E9-F1D2-4B7F-A4BF-A8F529879CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41F100E9-F1D2-4B7F-A4BF-A8F529879CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E36D6BE-37F1-4A55-8535-B2DB2116887A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E36D6BE-37F1-4A55-8535-B2DB2116887A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E36D6BE-37F1-4A55-8535-B2DB2116887A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E36D6BE-37F1-4A55-8535-B2DB2116887A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5752CC78-BD8D-47C4-BD6C-D165D7AB34A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5752CC78-BD8D-47C4-BD6C-D165D7AB34A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5752CC78-BD8D-47C4-BD6C-D165D7AB34A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5752CC78-BD8D-47C4-BD6C-D165D7AB34A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AEFE698-110C-4F8D-B9C1-31923EFB1419}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Entites\bin\Debug\net5.0\LenaProject.Entites.deps.json
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Entites\bin\Debug\net5.0\LenaProject.Entites.dll
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Entites\bin\Debug\net5.0\ref\LenaProject.Entites.dll
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Entites\bin\Debug\net5.0\LenaProject.Entites.pdb
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Entites\obj\Debug\net5.0\LenaProject.Entites.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Entites\obj\Debug\net5.0\LenaProject.Entites.AssemblyInfoInputs.cache
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Entites\obj\Debug\net5.0\LenaProject.Entites.AssemblyInfo.cs
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Entites\obj\Debug\net5.0\LenaProject.Entites.csproj.CoreCompileInputs.cache
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Entites\obj\Debug\net5.0\LenaProject.Entites.dll
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Entites\obj\Debug\net5.0\ref\LenaProject.Entites.dll
+C:\Users\ysnbj\Desktop\LenaProject\LenaProject.Entites\obj\Debug\net5.0\LenaProject.Entites.pdb

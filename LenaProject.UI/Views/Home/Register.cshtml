@@ -1,0 +1,74 @@
+﻿@model AppUserRegisterDto
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Kayıt Ol</h1>
+
+@using (Html.BeginForm())
+{
+
+    <div asp-validation-summary="ModelOnly"></div>
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+
+        <label asp-for="FirstName"></label>
+        <input type="text" asp-for="FirstName" class="form-control" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+
+    </div>
+
+    <div class="form-group">
+
+        <label asp-for="Lastaname"></label>
+        <input type="text" asp-for="Lastaname" class="form-control" />
+        <span asp-validation-for="Lastaname" class="text-danger"></span>
+
+    </div>
+
+    <div class="form-group">
+
+        <label asp-for="Username"></label>
+        <input type="text" asp-for="Username" class="form-control" />
+        <span asp-validation-for="Username" class="text-danger"></span>
+
+    </div>
+
+    <div class="form-group">
+
+        <label asp-for="Email"></label>
+        <input type="text" asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+
+    </div>
+
+    <div class="form-group">
+
+        <label asp-for="Password"></label>
+        <input type="password" asp-for="Password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">Kayıt Ol</button>
+
+    @section Javascript{
+
+        <script src="~/jquery/jquery.min.js"></script>
+
+        <script src="~/jquery-validate/jquery.validate.min.js"></script>
+        <script src="~/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+
+
+    }
+
+
+
+
+
+
+}
+

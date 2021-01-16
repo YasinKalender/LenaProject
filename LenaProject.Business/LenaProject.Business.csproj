@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="9.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LenaProject.DAL\LenaProject.DAL.csproj" />
+    <ProjectReference Include="..\LenaProject.Dto\LenaProject.Dto.csproj" />
+  </ItemGroup>
+
+</Project>
